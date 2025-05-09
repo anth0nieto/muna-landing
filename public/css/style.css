@@ -1,3 +1,11 @@
+:root {
+	/* Primary Colors */
+	--primary-blue: #2a378c;
+	--secondary-blue: #1e2762;
+	--tertiary-yellow: #ffeecf;
+	--extra-brown: #624819;
+}
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -84,7 +92,7 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: var(--primary-blue);
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -104,7 +112,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, var(--primary-blue) 0%, var(--secondary-blue) 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -166,8 +174,8 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-color: var(--primary-blue);
+  background-image: var(--primary-blue);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;

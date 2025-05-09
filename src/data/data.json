@@ -1,21 +1,15 @@
 {
 	"Header": {
-	  "title": "Muna",
-	  "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+	  "title": "Mûna",
+	  "paragraph": "Las mejores Facturas 🥐 Hechas con dedicación por Jesús y Francis desde Lanús 💙🫶🏽"
 	},
 	"About": {
-	  "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	  "paragraph": "Muna nació de una charla entre amigos: Jesús y Anthony soñaban con algo propio. Con esfuerzo y muchas medialunas, ese sueño se convirtió en una panadería artesanal en el corazón de Lanús.",
 	  "Why": [
-		"Lorem ipsum dolor",
-		"Tempor incididunt",
-		"Lorem ipsum dolor",
-		"Incididunt ut labore"
-	  ],
-	  "Why2": [
-		"Aliquip ex ea commodo",
-		"Lorem ipsum dolor",
-		"Exercitation ullamco",
-		"Lorem ipsum dolor"
+		"Porque nos gusta la panadería",
+		"Atiendemos a todos los clientes con la mejor calidad",
+		"Sabemos que la panadería es un lugar de encuentro y de confianza",
+		"Nos esforzamos para que cada cliente se sienta como en casa"
 	  ]
 	},
 	"Gallery": [
@@ -132,32 +126,26 @@
 	"Team": [
 	  {
 		"img": "img/team/01.jpg",
-		"name": "John Doe",
-		"job": "Director"
-	  },
-	  {
-		"img": "img/team/02.jpg",
-		"name": "Mike Doe",
-		"job": "Senior Designer"
-	  },
-	  {
-		"img": "img/team/03.jpg",
-		"name": "Jane Doe",
-		"job": "Senior Designer"
+		"name": "Yisus",
+		"job": "Panadero/Founder"
 	  },
 	  {
 		"img": "img/team/04.jpg",
-		"name": "Karen Doe",
-		"job": "Project Manager"
+		"name": "Francis",
+		"job": "Panadero/Logística"
+	  },
+	  {
+		"img": "img/team/03.jpg",
+		"name": "Diana",
+		"job": "Community Manager"
 	  }
 	],
 	"Contact": {
-	  "address": "4321 California St, San Francisco, CA 12345 ",
-	  "phone": "+1 123 456 1234",
-	  "email": "info@company.com",
-	  "facebook": "fb.com",
-	  "twitter": "twitter.com",
-	  "youtube": "youtube.com"
+	  "address": "Margarita Weild 1428, B1824 Buenos Aires, Provincia de Buenos Aires, Argentina",
+	  "phone": "+54 111523907636",
+	  "email": "muna.lanus@gmail.com",
+	  "instagram": "https://www.instagram.com/muna.panaderia/",
+	  "whatsapp": "https://wa.me/541115239076"
 	},
 	"Features": [
 	  {
