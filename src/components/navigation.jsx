@@ -13,12 +13,9 @@ export const Navigation = (props) => {
           >
             {" "}
             <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            Mûna
+		    Û
           </a>{" "}
         </div>
 

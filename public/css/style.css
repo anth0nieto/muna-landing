@@ -173,8 +173,8 @@ hr {
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #fff;
-  background-color: var(--primary-blue);
+  color: var(--primary-blue);
+  background-color: #fff;
   background-image: var(--primary-blue);
   padding: 14px 34px;
   letter-spacing: 1px;
@@ -248,8 +248,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 500px;
+  padding-bottom: 100px;
   text-align: center;
 }
 /* Features Section */
@@ -277,6 +277,8 @@ header .intro-text {
   margin: 0 0 20px;
 }
 #about h2 {
+  text-align: center;
+  color: var(--primary-blue);
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -284,7 +286,6 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -299,7 +300,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: var(--primary-blue);
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
