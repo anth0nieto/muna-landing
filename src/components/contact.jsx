@@ -15,14 +15,11 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
       .sendForm("service_y66fa8c", "template_8i71716", e.target, "YbhnD7HqSF3AL6Rkr")
       .then(
@@ -112,7 +109,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-whatsapp"></i> WhatsApp
                 </span>{" "}
-                <a href={props.data ? props.data.whatsapp : "/"} style={{ color:"white", textDecorationLine: "underline"}}>{props.data ? props.data.phone : "loading"}</a>
+                <a href={props.data ? props.data.whatsapp : "/"} target="_blank" rel="noopener noreferrer" style={{ color:"white", textDecorationLine: "underline"}}>{props.data ? props.data.phone : "loading"}</a>
               </p>
             </div>
             <div className="contact-item">
@@ -129,12 +126,12 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.instagram : "/"}>
+                    <a href={props.data ? props.data.instagram : "/"} target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </li>
-				  <li>
-                    <a href={props.data ? props.data.whatsapp : "/"}>
+                  <li>
+                    <a href={props.data ? props.data.whatsapp : "/"} target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-whatsapp"></i>
                     </a>
                   </li>
