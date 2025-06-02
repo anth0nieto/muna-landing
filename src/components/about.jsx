@@ -2,7 +2,7 @@ import React from "react";
 import { MunaCard } from "./MunaCard";
 export const About = (props) => {
   const { backgroundImage = "img/u-pattern.png" } = props;
-  
+
   return (
     <div style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", padding: "40px", width: "100%"}}>
       <div id="about">
@@ -31,7 +31,7 @@ export const About = (props) => {
             <MunaCard backgroundImage="img/about_3.png"  description="Porque queremos que te sientas como en casa cada vez que venís"/>
           </div>
           <div className="col-xs-12 col-md-6">
-            <MunaCard backgroundImage="img/about_4.png"  description="Porque cada producto esta hecho con técnica y atención"/>
+            <MunaCard backgroundImage="img/about_4.png"  description="Porque cada producto está hecho con técnica y atención"/>
           </div>
           </div>
         </div>
